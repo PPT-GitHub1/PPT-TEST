@@ -33,5 +33,17 @@ namespace WindowsFormsApplication1
         {
             this.Close();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Class1 cl;
+            cl = new Class1();
+
+            string date = cl.GetDate2();
+            string time = cl.GetTime2();
+
+            MessageBox.Show(date + " " + time);
+
+        }
     }
 }

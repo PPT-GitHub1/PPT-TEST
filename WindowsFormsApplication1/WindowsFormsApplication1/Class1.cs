@@ -21,6 +21,20 @@ namespace WindowsFormsApplication1
             string ret = time.ToShortTimeString();
             return (ret);
         }
+        
+        public string GetDate2()
+        {
+            DateTime date = DateTime.Now;
+            string ret = date.ToShortDateString();
+            return (ret);
+        }
+
+        public string GetTime2()
+        {
+            DateTime time = DateTime.Now;
+            string ret = time.ToShortTimeString();
+            return (ret);
+        }
 
     }
 }
