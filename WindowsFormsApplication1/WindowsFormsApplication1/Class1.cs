@@ -10,7 +10,7 @@ namespace WindowsFormsApplication1
     {
         public string GetDate()
         {
-            DateTime date = DateTime.Now;
+            DateTime date = DateTime.Now
             string ret = date.ToShortDateString();
             return (ret);
         }
